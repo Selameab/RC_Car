@@ -1,0 +1,1 @@
+Arduino code to communicate commands and data between android app and hardware
