@@ -1,5 +1,6 @@
-Bluetooth Commands
+#Bluetooth Commands
 
+```
 Command 			Byte	ASCII
 Front Distance		97		a
 Back Distance		98		b
@@ -18,3 +19,4 @@ Right Indicator ON 	109		n
 Right Indicator OFF 110		o
 Left Indicator ON 	111		p
 Left Indicator OFF 	112		q
+```
