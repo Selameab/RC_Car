@@ -12,11 +12,11 @@ Right 				103		g
 Left 				104		h
 No turning			105		i
 Front LEDs ON 		106		j
-Front LEDs OFF		106		k
-Brake LEDs ON 		107		l
-Brake LEDs OFF 		108		m
-Right Indicator ON 	109		n
-Right Indicator OFF 110		o
-Left Indicator ON 	111		p
-Left Indicator OFF 	112		q
+Front LEDs OFF		107		k
+Brake LEDs ON 		108		l
+Brake LEDs OFF 		109		m
+Right Indicator ON 	110		n
+Right Indicator OFF 111		o
+Left Indicator ON 	112		p
+Left Indicator OFF 	113		q
 ```
