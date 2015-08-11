@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="200px"
+        android:id="@+id/listView1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forward"
+        android:id="@+id/forwardButton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Left"
+        android:id="@+id/leftButton"
+        android:layout_below="@+id/forwardButton"
+        android:layout_toLeftOf="@+id/forwardButton"
+        android:layout_toStartOf="@+id/forwardButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Right"
+        android:id="@+id/rightButton"
+        android:layout_alignBottom="@+id/leftButton"
+        android:layout_toRightOf="@+id/forwardButton"
+        android:layout_toEndOf="@+id/forwardButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/backButton"
+        android:layout_below="@+id/rightButton"
+        android:layout_alignLeft="@+id/forwardButton"
+        android:layout_alignStart="@+id/forwardButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:id="@+id/stopButton"
+        android:layout_alignBottom="@+id/rightButton"
+        android:layout_alignLeft="@+id/backButton"
+        android:layout_alignStart="@+id/backButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Left L"
+        android:id="@+id/leftLightButon"
+        android:layout_below="@+id/backButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Right L"
+        android:id="@+id/rightLightButton"
+        android:layout_above="@+id/frontLightButton"
+        android:layout_alignRight="@+id/listView1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Front L"
+        android:id="@+id/frontLightButton"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/leftButton"
+        android:layout_toEndOf="@+id/leftButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discover Devices"
+        android:id="@+id/discoverdevicesButton"
+        android:layout_below="@+id/frontLightButton"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/messageTextView"
+        android:layout_below="@+id/discoverdevicesButton"
+        android:layout_above="@+id/listView1"
+        android:layout_alignEnd="@+id/rightLightButton"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bluetooth Car Project</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="DiscoverDevices">Discover Devices</string>
+    <string name="stop_button">Write</string>
+    <string name="command">Command</string>
+    <string name="Connected">Connected</string>
+</resources>
